@@ -30,13 +30,15 @@ A clean, modern, single-page Tic Tac Toe game built with plain HTML, CSS, and Ja
 
 ## How to Run
 
-No build tools or installs required. Pick any one of the following:
+No build tools, installs, or server required.
 
-### Option 1: Open directly in a browser
+### Option 1: Open directly in a browser (recommended)
 
-Double-click `index.html`, or open it from your browser with `File > Open`.
+Double-click `index.html`, or open it from your browser with `File > Open`. This app is plain HTML/CSS/JS with no dependencies, so it runs entirely from the local file — no server needed.
 
-### Option 2: Serve it locally (recommended for the best experience)
+### Option 2: Serve it locally
+
+Only needed if you specifically require `http://` instead of `file://`.
 
 Using Python:
 
@@ -52,7 +54,7 @@ Using Node.js (`npx serve`):
 npx serve .
 ```
 
-Using the VS Code "Live Server" extension: right-click `index.html` and choose **Open with Live Server**.
+Using the VS Code "Live Server" extension: right-click `index.html` and choose **Open with Live Server**. Note: Live Server defaults to port 5500, which can conflict with other local services (e.g. Oracle's TNS listener) and cause `ERR_EMPTY_RESPONSE` in the browser. If that happens, change `liveServer.settings.port` in VS Code settings to a free port (e.g. 5501), or just use Option 1 instead.
 
 ## How to Play
 
