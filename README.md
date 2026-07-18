@@ -4,6 +4,8 @@ A clean, modern, single-page Tic Tac Toe game built with plain HTML, CSS, and Ja
 
 ![Tic Tac Toe](https://img.shields.io/badge/vanilla-JS-yellow) ![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 
+**Live demo:** https://aisirimr.github.io/tic-tac-toe/
+
 ## Features
 
 - 3x3 interactive board with click-to-play
